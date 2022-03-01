@@ -1,0 +1,153 @@
+div.presentation{
+	background: rgba(153, 148, 117,.3);
+	border-color: #000000;
+	border-right: 2px solid #000000;
+	border-left: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	border-top: 2px solid #000000;
+	margin: 20px auto;
+	margin-bottom: 10px;
+	width: 900px;
+	border-radius: 4px;
+}
+
+.green_card{
+	background: rgba(153, 148, 117,.3);
+	padding: 20px;
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	box-shadow: 0 30px 35px rgba(94, 90, 70,.4)
+}
+
+div.profile{
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+
+.button{
+	width: 120px;
+	text-align: center;
+	margin: 5px auto;
+	background-color: rgba(153, 148, 117,.3)
+	padding: 6px;
+	border-radius: 4px;
+}
+
+.button:hover{
+	background-color: rgba(255,255,255)
+}
+
+.list_inline{
+	list-style: none;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+.list_inline li{
+	display: inline;
+	padding: 30px;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+
+.container{
+	text-align: center;
+}
+
+
+.presentation p{
+	margin-bottom: 20px;
+}
+
+#profile{
+	outline:5px solid #60B2E5;
+	width: 300px;
+	height: 300px;
+	border-radius: 0%;
+}
+
+
+body {
+	color: rgb(0 0 0);
+    background-color: #F9E79F;
+    font-family:'Verdana', sans-serif;
+    font-size: 17px;
+    font-weight: 30;
+    font-height: 10;
+}
+
+h1,h2,h3 {
+	font-family:'Courrier New', sans-serif;
+	letter-spacing: 2px;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-size:35px;
+	font-weight: 90;
+	color: rgb(210;180;180);
+	text-align: center;
+	margin-right: 0px;
+	margin-top: 40px;
+
+}
+
+h2 {
+	color:#000000;
+	font-size: 20px;
+	font-weight: 40;
+}
+
+p {
+	text-align: *center;
+}
+
+a{
+	color:rgb(227 227 227);
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color :#60B2E5;
+	text-decoration: underline;
+}
+
+@media (max-width: 960px) {
+  .green_card {
+    width: 400px;
+   }
+   div.presentation{
+    width: 400px;
+  }
+}
+@media (max-width: 720px) {
+	.green_card {
+    width: 300px;
+   }
+   div.presentation{
+    width: 300px;
+  }
+}
+@media (max-width: 540px) {
+  .green_card, {
+    width: 100px;
+   }
+   div.presentation{
+    width: 100px;
+  }
+}
+div.image-rendering: {
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
